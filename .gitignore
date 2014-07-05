@@ -1,4 +1,5 @@
 # ignore
 .idea/
 .git/
+assets/
 protected/runtime/
