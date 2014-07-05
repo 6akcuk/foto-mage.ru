@@ -1,0 +1,267 @@
+#taxi_css {
+  display: none;
+}
+
+.taxi_header {
+  border-width: 0px !important;
+  border-bottom: 1px solid #dae1e8 !important;
+}
+.taxi_public {
+  padding: 0px !important;
+}
+.taxi_public > table {
+  width: 100%;
+  border: 0px;
+}
+.taxi_public > table td {
+  vertical-align: top;
+}
+
+.taxi_public td.narrow_column {
+  border-left: 1px solid #dae1e8;
+  background: #f7f7f7;
+  padding: 10px;
+  width: 100px !important;
+  max-width: 100px !important;
+}
+
+.taxi_page {
+  padding: 10px;
+}
+.taxi_page .taxi_stat > .fl_l {
+  margin-right: 70px;
+}
+.taxi_page .taxi_stat > .fl_l:last-child {
+  margin-right: 0px;
+}
+.taxi_page .label {
+  padding: 0px 0px 8px;
+  color: #777;
+  width: 120px;
+}
+.taxi_page .labeled {
+  font-weight: bold;
+}
+.taxi_page h2 {
+  margin-top: 10px;
+}
+
+.taxi_choose {
+  margin: 10px auto 0px;
+  width: 320px;
+}
+.taxi_choose h2 {
+  margin-bottom: 0px;
+}
+a.taxi_choose_item {
+  display: block;
+  padding: 20px;
+  border-bottom: 1px solid #dae1e8;
+  font-size: 1.18em;
+}
+a.taxi_choose_item:hover {
+  background: #edf1f5;
+  text-decoration: none;
+}
+
+.taxi_date_column {
+  width: 100px;
+}
+
+/* Stats */
+.taxi_areas_stat {
+  width: 536px;
+}
+.taxi_area_stat_row {
+  width: 268px;
+  padding: 5px 0px 8px;
+}
+.taxi_area_stat_name {
+  display: inline-block;
+  width: 180px;
+}
+.taxi_area_stat_drivers {
+  display: inline-block;
+  padding-right: 15px;
+  background: url(/images/icons/mono_iconset.gif) right 1px no-repeat;
+}
+.taxi_area_stat_orders {
+  display: inline-block;
+  padding-right: 15px;
+  background: url(/images/icons/mono_iconset.gif) right -320px no-repeat;
+}
+
+.taxi_actions {
+
+}
+.taxi_actions a {
+  padding: 6px 11px;
+  width: auto !important;
+  background: inherit !important;
+}
+.taxi_actions a:hover {
+  background: #e1e7ed !important;
+}
+.taxi_actions a.active {
+  background: #5e82a8 !important;
+  color: #fff !important;
+}
+
+/* Favorites */
+.taxi_favorites {
+
+}
+.taxi_favorites_sep {
+  margin: 10px 0px 6px;
+  border-top: 1px solid #dae1e8;
+}
+
+/* Forms */
+.taxi_search_wrap {
+  background: #f7f7f7;
+  padding: 10px;
+  border-bottom: 1px solid #e7eaed;
+}
+.taxi_search_wrap .taxi_search_hint {
+  color: #777;
+  padding-top: 4px;
+  padding-right: 10px;
+}
+.taxi_search_wrap .text {
+  background: #FFF url(/images/magglass.png) no-repeat 5px 6px;
+  padding: 5px 40px 5px 20px;
+  width: 209px;
+  outline: none;
+}
+
+#no_results {
+  padding: 100px 0px;
+  margin: 10px 0px;
+  font-size: 1.18em;
+  color: #777;
+  text-align: center;
+}
+
+.taxi_inline_order_form {
+  margin: 0px auto;
+  width: 320px;
+}
+
+.taxi_form_content {
+  margin: 0px auto;
+  width: 320px;
+}
+.taxi_form_header {
+  color: #45668E;
+  font-weight: bold;
+  font-size: 1.18em;
+  padding: 0px 0px 8px;
+}
+.taxi_form_param {
+  padding: 0px 0px 10px 0px;
+}
+.taxi_form_param .text {
+  width: 306px;
+}
+.taxi_warn {
+  display: none;
+  color: #666;
+  padding-top: 5px;
+}
+
+#taxi_error {
+  display: none;
+  margin-bottom: 8px;
+}
+#taxi_result {
+  display: none;
+  padding: 0px 0px 15px;
+}
+
+/* Order */
+.taxi_street_field {
+  width: 162px !important;
+}
+#to_street.taxi_street_field {
+  width: 232px !important;
+}
+.taxi_house_field, .taxi_porch_field {
+  width: 48px !important;
+}
+
+.taxi_order_row {
+  padding: 10px;
+  border-bottom: 1px solid #dae1e8;
+}
+.taxi_order_bottom {
+  padding-top: 10px;
+  color: #777;
+}
+.taxi_order_customer, .taxi_order_driver, .taxi_order_from_address, .taxi_order_to_address {
+  padding-left: 15px;
+  margin-bottom: 5px;
+  background: url(/images/icons/mono_iconset.gif) no-repeat;
+}
+.taxi_order_customer {
+  background-position: left -306px;
+}
+.taxi_order_driver {
+  background-position: left 1px;
+}
+.taxi_order_from_address {
+  background-position: left -163px;
+}
+.taxi_order_to_address {
+  background-position: left -320px;
+}
+.taxi_order_price, .taxi_order_timecounter, .taxi_order_deferred, .taxi_order_status {
+  padding-right: 15px;
+  margin-bottom: 5px;
+  background: url(/images/icons/mono_iconset.gif) no-repeat;
+}
+.taxi_order_price {
+  background-position: right -117px;
+}
+.taxi_order_timecounter, .taxi_order_deferred {
+  background-position: right -333px;
+}
+.taxi_order_status {
+  background-position: right -192px;
+}
+.taxi_order_timecounter, .taxi_order_deferred {
+  font-weight: bold;
+  color: #444;
+}
+.taxi_order_status_posted {
+
+}
+
+/* Drivers */
+.taxi_driver_view {
+  padding: 10px;
+}
+.taxi_driver_card {
+  padding-bottom: 20px;
+}
+
+.taxi_card_record {
+  padding-bottom: 7px;
+}
+.taxi_card_record .label {
+  color: #666666;
+  width: 150px;
+}
+.taxi_card_record .value {
+
+}
+
+.taxi_driver_actions {
+  padding-bottom: 10px;
+}
+.taxi_driver_actions div.button_blue button {
+  width: 125px;
+}
+
+.taxi_driver_history_date {
+  width: 130px;
+}

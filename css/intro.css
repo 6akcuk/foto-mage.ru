@@ -1,0 +1,68 @@
+#intro {
+  margin: 50px auto 0px;
+  width: 518px;
+}
+#intro img {
+  margin-bottom: 10px;
+}
+#intro h1 {
+  font-size: 14px;
+}
+#intro .label {
+  width: 50px;
+  color: #45688E;
+  font-weight: bold;
+  padding: 6px 0 0;
+}
+#intro .label .error {
+  border: 0;
+  font-weight: inherit;
+  background: inherit;
+  padding: inherit;
+  line-height: inherit;
+}
+#intro .labeled {
+  padding-bottom: 7px;
+}
+#intro .errorMessage {
+  padding-bottom: 7px;
+  color: #cd0a0a;
+}
+#intro .text {
+  width: 105px;
+  padding: 5px 5px 6px;
+}
+
+#intro .button_blue {
+  margin-top: 5px;
+}
+
+#intro .reminder {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#intro #login-form {
+  width: 167px;
+}
+#intro .or {
+  width: 100px;
+  padding-top: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+#intro .socialnetwork {
+  width: 207px;
+}
+#intro .register {
+  margin-top: 50px;
+}
+#intro .register a {
+  display: block;
+  padding: 30px;
+  text-align: center;
+  background: #FEFAE4;
+  border-radius: 2px;
+  font-size: 24px;
+}

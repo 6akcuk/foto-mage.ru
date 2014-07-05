@@ -1,0 +1,145 @@
+.pv_dark {
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    background-color: #000;
+}
+
+.pv_dark #layer {
+    padding-bottom: 1px;
+}
+
+.pv_content {
+    width: 758px;
+    padding: 50px 0px 0px;
+    margin: 0px auto;
+    position: relative;
+}
+.pv_content table {
+    margin: 0px auto !important;
+    border-collapse: separate !important;
+    border-spacing: 0px !important;
+}
+.pv_content table td {
+    border-width: 0 !important;
+    padding: 0px !important;
+}
+
+.pv_content .sidesh {
+    width: 1px;
+    background-color: #000;
+}
+.pv_content .sidesh div {
+    width: 1px;
+    overflow: hidden;
+}
+.pv_content .bottomsh {
+    height: 1px;
+    background-color: #000;
+}
+.pv_content .bottomsh div {
+    height: 1px;
+    overflow: hidden;
+}
+.pv_content .s1 {
+    opacity: 0.05;
+    filter: alpha(opacity=5);
+}
+.pv_content .s2 {
+    opacity: 0.15;
+    filter: alpha(opacity=15);
+}
+.pv_content .s3 {
+    opacity: 0.25;
+    filter: alpha(opacity=25);
+}
+
+.pv_close_link {
+    padding: 15px 27px 0px;
+}
+
+#pv_box {
+    position: relative;
+    padding: 1px 0px 25px;
+    background-color: #fff;
+}
+#pv_left_nav, #pv_right_nav {
+    left: 0px;
+    top: 41px;
+    position: absolute;
+    z-index: 505;
+    cursor: pointer;
+}
+
+#pv_loader {
+    width: 604px;
+    height: 453px;
+    margin: 0px auto;
+    background: url('/images/progress7.gif') no-repeat 50% 50%;
+}
+
+#pv_photo {
+    padding: 25px 25px 0px;
+    text-align: center;
+    display: block;
+}
+#pv_summary {
+    width: 600px;
+    height: 13px;
+    margin: 15px auto 0px;
+    padding: 0px 27px;
+  color: #45668E;
+  font-weight: bold;
+}
+#pv_html {
+    width: 604px;
+    margin: 15px auto 0px;;
+}
+.pv_columns .wide_column {
+    width: 394px;
+    padding-bottom: 10px;
+}
+.pv_columns .narrow_column {
+    width: 169px;
+    overflow: hidden;
+    padding-left: 20px;
+    margin-left: 20px;
+    border-left: 1px solid #eee;
+}
+
+.pv_desc {
+    color: #777;
+    padding: 0px 0px 8px;
+}
+
+.pv_fixed {
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 601;
+}
+.pv_fixed div {
+    position: absolute;
+    z-index: 630;
+}
+.pv_fixed div div {
+    position: static;
+}
+.pv_left, .pv_close {
+    top: 65px;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    background: url('/images/photonav.gif') no-repeat;
+}
+.pv_left {
+    left: 20px;
+    background-position: 0px 0px;
+}
+.pv_close {
+    background-position: 0px -19px;
+}
+
+/* Static Manager */
+#photoview_css {
+    display: none;
+}

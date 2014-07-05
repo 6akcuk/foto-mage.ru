@@ -1,0 +1,255 @@
+#users_css {
+    display: none;
+}
+
+.users_search_wrap {
+  background: #f7f7f7;
+  padding: 10px;
+  border-bottom: 1px solid #e7eaed;
+}
+.users_search_wrap #c_name {
+  background: #FFF url(/images/magglass.png) no-repeat 5px 6px;
+  padding: 5px 40px 5px 20px;
+  width: 209px;
+  outline: none;
+}
+.users_search_wrap div[rel="filters"] {
+  padding-right: 10px;
+}
+.users_search_wrap select {
+  padding: 3px 3px 4px;
+  width: 150px;
+}
+
+.results_wrap {
+  padding: 5px 15px;
+}
+
+.users_table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.users_table td {
+  padding: 5px 5px 5px 0px;
+}
+
+/* Users */
+.data_table .data_orgs {
+  display: inline-block;
+  padding: 0 4px;
+  width: 13px;
+  height: 16px;
+  text-indent: 100%;
+  white-space: nowrap;
+  opacity: .4;
+  visibility: hidden;
+  overflow: hidden;
+}
+.data_table tr:hover .data_orgs {
+  visibility: visible;
+}
+.data_table .data_orgs {
+  background: url(/images/icons/attach_icons.png) left -134px no-repeat;
+}
+
+.add_user_content, .edit_user_content {
+  padding: 3px 0px 1px;
+  width: 372px;
+}
+#add_user_error, #edit_user_error {
+  display: none;
+  margin-top: 8px;
+}
+.add_user_general_row, .edit_user_general_row {
+  padding-bottom: 4px;
+}
+.add_user_general_label, .edit_user_general_label {
+  color: #555;
+  width: 115px;
+  padding: 4px 10px 0px 0px;
+}
+#add_user_login, #add_user_email, #add_user_password, #add_user_lastname, #add_user_firstname,
+#edit_user_login, #edit_user_email, #edit_user_password, #edit_user_lastname, #edit_user_firstname {
+  width: 182px;
+}
+#add_user_result, #edit_user_result {
+  display: none;
+  padding: 0px 15px 15px 15px;
+}
+
+/* Roles */
+.role_create_content {
+  padding: 3px 0px 1px;
+  width: 370px;
+}
+.role_create_header {
+  font-weight: bold;
+  font-size: 1.09em;
+  color: #36638E;
+  margin: 11px 0px 5px;
+}
+#RoleForm_name, #RoleForm_bizrule, #RoleForm_description,
+#OperationForm_name, #OperationForm_bizrule, #OperationForm_description {
+  width: 360px;
+}
+.role_create_warn {
+  display: none;
+  color: #666;
+  padding-top: 5px;
+}
+#rc_error, #re_error, #op_create_error, #op_edit_error {
+  display: none;
+  margin-top: 8px;
+}
+#rc_result, #re_result, #op_create_result, #op_edit_result {
+  display: none;
+  padding: 15px 0px 0px;
+}
+
+/* Connect */
+.roles_connect_wrap {
+  padding-top: 10px;
+}
+.role_connect {
+  display: block;
+  padding: 8px 20px 8px 20px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #eeeeee;
+}
+.role_connect:hover {
+  background: #edf1f5;
+  text-decoration: none;
+  border-top: 1px solid #e6eaee;
+  border-bottom: 1px solid #e6eaee;
+}
+.role_connect_help {
+  display: none;
+  padding-top: 8px;
+  color: #93a2b3;
+}
+.role_connect:hover .role_connect_help {
+  display: block;
+}
+.role_connect_name {
+  padding-bottom: 5px;
+  color: #000;
+}
+.role_connect_description {
+  font-size: 10px;
+  color: #777;
+}
+
+.roclist_search_cont {
+  background: #f7f7f7;
+  padding: 10px;
+  border-bottom: 1px solid #dae1e8;
+}
+
+#roclist_op_name {
+  padding: 5px 20px;
+  width: 483px;
+  background: #FFF url(/images/magglass.png) no-repeat 5px 6px;
+}
+
+#roclist_cont {
+  position: relative;
+}
+.roclist_col {
+  border: 0px;
+  width: 254px;
+  padding: 0px 11px 15px 11px;
+  vertical-align: top;
+}
+#roclist_scroll_wrap {
+  overflow: hidden;
+  height: 420px;
+}
+#roclist_right_col {
+  position: absolute;
+  top: 0px;
+  left: 276px;
+  height: 405px;
+  overflow: hidden;
+}
+.roclist_info {
+  padding: 65px 30px;
+  color: #777;
+  text-align: center;
+  font-size: 1.18em;
+}
+.roclist_left_col {
+  width: 253px;
+  border-right: 1px solid #DBDEE5;
+}
+
+.roclist_cell {
+  width: 253px;
+  border-bottom: 1px solid #E4E8ED;
+  cursor: pointer;
+}
+.roclist_cell:hover {
+  background: #EDF1F5;
+}
+.roclist_item_name {
+  color: #45668E;
+  font-weight: bold;
+  overflow: hidden;
+  width: 223px;
+  padding: 8px 0px 0px 9px;
+}
+.roclist_item_description {
+  padding: 5px 0px 8px 9px;
+  font-size: 10px;
+}
+td.roclist_item_act {
+  padding: 5px;
+  width: 12px;
+}
+.roclist_item_action {
+  width: 12px;
+  height: 12px;
+  background: url(/images/lite_acts_12x12.png) no-repeat 0px 0px;
+}
+#roclist_sel_list .roclist_item_action {
+  background: url(/images/lite_acts_12x12.png) no-repeat 0px -12px;
+}
+
+/* Link Orgs */
+.orgs_container {
+  padding: 10px 20px;
+}
+#link_org_error {
+  display: none;
+  margin-top: 8px;
+}
+.link_org_user_wrap {
+
+}
+.link_org_user {
+  display: block;
+  padding: 8px 20px 8px 20px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #eeeeee;
+}
+.link_org_user:hover {
+  background: #edf1f5;
+  text-decoration: none;
+  border-top: 1px solid #e6eaee;
+  border-bottom: 1px solid #e6eaee;
+}
+.link_org_user_help {
+  display: none;
+  padding-top: 8px;
+  color: #93a2b3;
+}
+.link_org_user:hover .link_org_user_help {
+  display: block;
+}
+.link_org_user_name {
+  padding-bottom: 5px;
+  color: #000;
+}
+.link_org_user_description {
+  font-size: 10px;
+  color: #777;
+}

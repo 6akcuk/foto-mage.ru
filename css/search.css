@@ -1,0 +1,51 @@
+#search_css {
+  display: none;
+}
+
+#no_results {
+  padding: 100px 0px;
+  margin: 10px 0px;
+  font-size: 1.18em;
+  color: #777;
+  text-align: center;
+}
+
+.search_wrap {
+  background: #f7f7f7;
+  padding: 10px;
+  border-bottom: 1px solid #e7eaed;
+}
+.search_wrap #c_name {
+  background: #FFF url(/images/magglass.png) no-repeat 5px 6px;
+  padding: 5px 40px 5px 20px;
+  width: 409px;
+  outline: none;
+}
+
+div.searchresults {
+  padding: 10px;
+}
+
+.gsearch_table {
+  background: #f7f7f7;
+  border-collapse: collapse;
+  width: 100%;
+}
+.gsearch_table td {
+  vertical-align: top;
+}
+.gsearch_table .searchresults {
+  padding: 5px 15px;
+  background: #fff;
+  border-right: 1px solid #DAE2E8;
+}
+.gsearch_table .filters {
+  width: 170px;
+  padding: 10px;
+}
+.gsearch_table .text {
+  font-weight: bold;
+  color: #555;
+  padding: 4px 4px 4px 0;
+  margin: -5px 0 4px;
+}

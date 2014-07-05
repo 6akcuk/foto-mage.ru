@@ -1,0 +1,147 @@
+#delivery_css {
+  display: none;
+}
+
+.orgs_search_wrap {
+  background: #f7f7f7;
+  padding: 10px;
+  border-bottom: 1px solid #e7eaed;
+}
+
+.results_wrap {
+  padding: 5px 15px;
+}
+
+.delivery_categories_table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.delivery_categories_table td {
+  padding: 5px 0px;
+}
+
+#no_results {
+  padding: 100px 0px;
+  margin: 10px 0px;
+  font-size: 1.18em;
+  color: #777;
+  text-align: center;
+}
+.no_results {
+  padding: 30px 15px;
+  text-align: center;
+  font-size: 1.09em;
+  color: #777;
+}
+
+/* Forms */
+#delivery_error {
+  display: none;
+  margin-top: 8px;
+}
+#delivery_result {
+  display: none;
+  padding: 0px 0px 15px;
+}
+.delivery_form_content {
+  padding: 3px 0px 1px;
+  width: 370px;
+}
+.delivery_form_header {
+  font-weight: bold;
+  font-size: 1.09em;
+  color: #36638E;
+  margin: 6px 0px 5px;
+}
+.delivery_form_content .text {
+  width: 360px;
+}
+
+.header_right_link {
+  font-weight: normal;
+}
+
+/* Menu elements */
+.delivery_menu_element {
+  text-align: center;
+  padding: 10px;
+  padding-left: 0px;
+}
+.delivery_menu_icon img {
+  width: 100px;
+}
+.delivery_menu_name {
+  padding-top: 3px;
+}
+.delivery_menu_bottom {
+  padding-top: 3px;
+}
+
+/* Goods */
+
+/* Post */
+.delivery_good {
+  padding: 7px 0px 10px;
+  border-bottom: 1px solid #dae1e8;
+}
+.delivery_good_photo {
+  overflow: hidden;
+  padding-right: 15px;
+}
+.delivery_good_avatar img {
+  width: 100px;
+}
+.delivery_good_info_wrap {
+}
+.delivery_good_title {
+  display: block;
+  line-height: 140%;
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+.delivery_good_text {
+  padding: 5px 0px 0px 0px;
+}
+.delivery_good_fullstory {
+  line-height: 160%;
+}
+.delivery_good_price {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 1.09em;
+  font-weight: bold;
+  color: #36638E;
+}
+.delivery_good_category, .delivery_good_element {
+  color: #666;
+  padding: 1px 0px;
+}
+.delivery_good_bottom {
+  padding-top: 4px;
+  padding-bottom: 8px;
+}
+.delivery_good_date, .ads_news_date {
+  color: #666;
+}
+
+/* Orders */
+.delivery_order_short {
+  display: block;
+  padding: 10px 8px;
+  border-bottom: 1px solid #E7EAED;
+}
+.delivery_order_short:hover {
+  text-decoration: none;
+}
+.delivery_order_title {
+  color: #45688e;
+  font-weight: bold;
+}
+.delivery_order_title:hover {
+  text-decoration: underline;
+}
+.delivery_order_short small {
+  display: block;
+  padding-top: 5px;
+  color: #333;
+}

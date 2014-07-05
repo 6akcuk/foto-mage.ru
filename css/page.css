@@ -1,0 +1,139 @@
+#page_css {
+  display: none;
+}
+
+#public .wide_column {
+  min-width: 530px;
+  padding-bottom: 10px;
+}
+#public .narrow_column {
+  width: 200px;
+  max-width: 200px;
+  padding-bottom: 10px;
+}
+
+h4.page_top {
+  margin: 0px;
+  padding: 0px 6px 4px;
+  font-size: 1.09em;
+  background: #FFF;
+}
+
+#public .wide_column .top_header {
+  width: 528px;
+  height: 1.23em;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+}
+
+#public .page_info {
+  padding: 7px 6px 10px;
+  line-height: 150%;
+}
+#public .page_info .label {
+  width: 120px;
+  color: #777;
+  padding: 3px 0px 0px;
+}
+#public .page_info .labeled {
+  width: 380px;
+  overflow: hidden;
+  padding: 3px 0px 0px;
+}
+
+#page_avatar {
+  text-align: center;
+  max-height: 500px;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+#page_avatar.no_page_avatar {
+  padding: 175px 10px 15px;
+  text-align: center;
+  background: #EEF2F6 url(/images/no_photo.png) no-repeat 45px 55px;
+}
+
+.page_actions {
+  padding-bottom: 10px;
+  position: relative;
+}
+.page_actions a {
+  background: none repeat scroll 0 0 #FFFFFF;
+  display: block;
+  width: 188px;
+  padding: 4px 6px;
+}
+.page_actions a:hover {
+  text-decoration: none;
+  background: #DAE1E8;
+}
+
+.module .add_link {
+  padding: 5px 0px;
+}
+.module_header {
+  display: block;
+  background: #f1f1f1;
+}
+.module_header:hover {
+  text-decoration: none;
+}
+.module_header .header_top {
+  background: #DEE5EB;
+  overflow: hidden;
+  padding: 4px 8px;
+  font-weight: bold;
+  outline: none;
+  color: #45668E;
+  text-decoration: none;
+}
+.module_header .header_top .right_link {
+  color: #99ADC2;
+  font-weight: bold;
+}
+.module_header:hover .header_top .right_link {
+  text-decoration: underline;
+}
+.p_header_bottom {
+  color: #666;
+  border-bottom: 1px solid #f1f1f1;
+  padding: 3px 8px;
+  background: #f1f1f1;
+}
+
+.module_body {
+  border-left: 1px solid #f1f1f1;
+}
+.page_list_module .module_body {
+  padding: 5px 0px 10px;
+}
+.module.empty .module_body {
+  color: #707070;
+  padding: 10px 8px;
+  background: #f7f7f7;
+  margin-bottom: 10px;
+  text-align: center;
+  border-bottom: 1px solid #dae1e8;
+}
+.page_list_module .line_cell {
+  display: block;
+  padding: 3px 8px;
+  margin: 0px;
+}
+.page_list_module .thumb {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  padding-top: 3px;
+}
+.page_list_module .thumb img {
+  display: block;
+  width: 32px;
+}
+.page_list_module .line_cell .info {
+  padding: 9px 6px 0px;
+}

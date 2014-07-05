@@ -1,0 +1,78 @@
+#cities_css {
+  display: none;
+}
+
+.city_search_wrap {
+  background: #f7f7f7;
+  padding: 10px;
+  border-bottom: 1px solid #e7eaed;
+}
+.city_search_wrap #c_name {
+  background: #FFF url(/images/magglass.png) no-repeat 5px 6px;
+  padding: 5px 40px 5px 20px;
+  width: 209px;
+  outline: none;
+}
+
+#no_results {
+  padding: 100px 0px;
+  margin: 10px 0px;
+  font-size: 1.18em;
+  color: #777;
+  text-align: center;
+}
+
+.city_wrap, .ads_city_wrap {
+  padding: 5px 15px 15px;
+}
+
+/* Forms */
+#city_error {
+  display: none;
+  margin-bottom: 8px;
+}
+#city_result {
+  display: none;
+  padding: 0px 0px 15px;
+}
+
+.city_form_image_wrap {
+  width: 100px;
+  height: 100px;
+  background: #edf1f5;
+  margin-right: 20px;
+}
+.city_form_image_wrap .city_upload_photo {
+  display: block;
+  background: #edf1f5;
+  text-align: center;
+  color: #777;
+  padding: 35px 10px;
+}
+.city_form_image_wrap .city_upload_photo:hover {
+  background: #dae1e8;
+  text-decoration: none;
+}
+.city_form_image_wrap .upload_progress_wrap {
+  margin: 40px 10px 0px;
+  width: 80px;
+}
+.city_form_param {
+  padding: 0px 0px 10px 0px;
+}
+.city_form_header {
+  color: #45668E;
+  font-weight: bold;
+  padding: 0px 0px 8px;
+}
+.city_form_content .text {
+  width: 370px;
+}
+.city_form_cols .text {
+  width: 250px;
+}
+.city_warn {
+  display: none;
+  color: #666;
+  padding-top: 5px;
+}

@@ -1,0 +1,55 @@
+#common_css {
+  display: none;
+}
+
+#stl_left {
+  display: none;
+  z-index: 3;
+  left: 0px;
+  top: 0px;
+}
+#stl_left:hover, #stl_left.over {
+  text-decoration: none;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#stl_text {
+  height: 14px;
+  display: block;
+  padding: 0px 20px;
+  margin: 0 31px 0 15px;
+  font-weight: bold;
+  color: #45688E;
+  background: url(/images/toplink.gif?3) no-repeat left 3px;
+}
+#stl_left .down {
+  background-position: left -7px;
+}
+#stl_left .back {
+  background-position: left -22px;
+}
+.stl_active {
+  cursor: pointer;
+}
+#stl_bg {
+  height: 100%;
+  width: 100px;
+  padding: 13px 0 13px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  -webkit-transition: background-color 200ms linear;
+  -moz-transition: background-color 200ms linear;
+  /*-o-transition: background-color 200ms linear;*/
+  transition: background-color 200ms linear;
+  -webkit-transition: opacity 200ms linear;
+  -moz-transition: opacity 200ms linear;
+  /*-o-transition: opacity 200ms linear;*/
+  transition: opacity 200ms linear;
+}
+.stl_active:hover #stl_bg, .stl_active.over #stl_bg {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.stl_active.over_fast #stl_bg {
+  background-color: #E1E7ED;
+}

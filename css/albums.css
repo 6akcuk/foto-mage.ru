@@ -1,0 +1,278 @@
+#albums_css {
+  display: none;
+}
+
+.albums_search_wrap {
+  background: #f7f7f7;
+  padding: 10px;
+  border-bottom: 1px solid #e7eaed;
+}
+
+#album_error {
+  display: none;
+  margin-bottom: 8px;
+}
+#album_result {
+  display: none;
+  padding: 0px 0px 15px;
+}
+
+div.empty {
+  padding: 100px 0px;
+  margin: 10px 0px;
+  font-size: 1.20em;
+  line-height: 20px;
+  color: #777;
+  text-align: center;
+}
+
+.albums_container, .photos_container {
+  padding: 10px 15px 10px;
+}
+
+.albums_container .album_row {
+  padding: 9px 9px 0px 10px;
+  width: 320px;
+  height: 223px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+}
+.albums_container .album_row img {
+  vertical-align: top;
+  max-width: 320px;
+}
+.albums_container .album_row a.img_link {
+  position: relative;
+  display: block;
+  width: 320px;
+  height: 212px;
+  overflow: hidden;
+  text-align: center;
+  background: #F1F1F1;
+}
+.albums_container .album_row a.img_link:hover {
+  text-decoration: none;
+}
+.albums_container .album_title {
+  background: rgba(0, 0, 0, 0.5);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#7f000000', endColorstr='#7f000000')"; /* IE */
+  color: white;
+  position: absolute;
+  top: 0px;
+  width: 320px;
+  margin-top: 190px;
+  text-align: left;
+  padding: 4px 0px 10px;
+  line-height: 12px;
+}
+.albums_container .album_title:not([dummy]) {
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled='false')";
+}
+.albums_container .album_title div {
+  margin: 0 7px;
+}
+.albums_container .album_title div.camera {
+  background: url(/images/camera_white.png) 0 2px no-repeat;
+  padding-left: 14px;
+  font-weight: bold;
+}
+.albums_container .album_title div.ge_album_privacy {
+  background: url(/images/icons/photo_icons.png?2) 0 -34px no-repeat;
+  width: 10px;
+  height: 13px;
+  margin: 0px;
+}
+.albums_container .album_title div.ge_album {
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  max-width: 208px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.albums_container .album_title div.description {
+  margin-top: 5px;
+  max-height: 126px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.albums_container .album_title a{
+  color: #45688E;
+}
+.albums_container .album_row .no_photo div.camera,
+.albums_container .album_row .no_photo img {
+  display: none;
+}
+.albums_container .album_row .img_link.no_photo {
+  background: #F1F1F1 url('/images/camera_big.png') 50% 60px no-repeat !important;
+}
+.albums_container .album_row .photo_album_count {
+  color: #999999;
+  width: 320px;
+  text-align: center;
+  padding-top: 3px;
+}
+.albums_container .album_row .album_info {
+  position: absolute;
+  top: 6px;
+  right: 26px;
+  width: 19px;
+  height: 19px;
+}
+.albums_container .album_row .album_delete, .photos_container .photo_row .photo_delete {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 19px;
+  height: 19px;
+}
+.albums_container .album_row .album_info_back,
+.albums_container .album_row .album_delete_back,
+.photos_container .photo_row .photo_delete_back {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #000000;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 2px 0 0 2px;
+  -moz-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+}
+.albums_container .album_row .album_delete_back,
+.photos_container .photo_row .photo_delete_back {
+  -webkit-border-radius: 0 2px 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+}
+.albums_container .album_row .album_info_cont,
+.albums_container .album_row .album_delete_cont,
+.photos_container .photo_row .photo_delete_cont {
+  position: absolute;
+  background: url(/images/icons/photo_icons.png?2) 0px -47px no-repeat;
+  top: 0px;
+  right: 0px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  width: 13px;
+  height: 13px;
+  padding: 0px;
+  margin: 4px;
+}
+.albums_container .album_row .album_delete_cont,
+.photos_container .photo_row .photo_delete_cont {
+  background-position: 0px -77px;
+  width: 12px;
+}
+.albums_container .album_row .photo_info_line {
+  background-color: #FFF;
+  height: 2px;
+  margin-bottom: 2px;
+  width: 100%;
+}
+
+/* Form */
+.album_form_param {
+  padding: 0px 0px 10px 0px;
+}
+.album_form_header {
+  color: #45668E;
+  font-weight: bold;
+  padding: 0px 0px 8px;
+  font-size: 12px;
+}
+.album_form_content .text {
+  width: 360px;
+}
+
+/* Photos & Upload */
+.photo_row {
+  display: inline-block;
+  width: 130px;
+  height: 87px;
+  padding: 9px 9px 9px 10px;
+}
+.photo_row a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  width: 130px;
+  height: 87px;
+  background: #f1f1f1;
+}
+
+#photos_add_bar {
+  width: 789px;
+  z-index: 200;
+  top: 0px;
+}
+.photos_add_bar_shadow {
+  position: absolute;
+  width: 789px;
+  height: 3px;
+  z-index: 100;
+  background: #555;
+  opacity: 0.12;
+  filter: alpha(opacity=12);
+  margin-top: 56px;
+  display: none;
+}
+#photos_add_bar.fixed .photos_add_bar_shadow {
+  display: block;
+}
+#photos_add_bar_progress {
+  display: none;
+  position: absolute;
+  padding: 10px 0px;
+  width: 789px;
+  height: 44px;
+  text-align: center;
+  background: #eff1f3;
+  border-bottom: 1px solid #e4e8ed;
+}
+#photos_add_p_line {
+  background: #fff;
+  border: 1px solid #c8d3dd;
+  height: 11px;
+  width: 175px;
+  margin-left: 305px;
+  margin-top: 8px;
+}
+#photos_add_p_inner {
+  position: absolute;
+  border: 1px solid #577799;
+  height: 11px;
+  width: 0px;
+  margin: -1px 0px 0px -1px;
+  background: url('/images/photos_add_progress.gif') 0px 0px;
+}
+#photos_add_p_text {
+  color: #798999;
+  padding-top: 8px;
+}
+
+.swfupload_wrap {
+  position: relative;
+}
+.swfupload {
+  position: absolute;
+  z-index: 1;
+}
+
+.upload_field {
+  background: #eff1f3;
+  border-bottom: 1px solid #e4e8ed;
+  color: #777;
+  font-size: 13px;
+  padding: 20px 0px;
+  text-align: center;
+}
+.swfupload_wrap:hover .upload_field {
+  background: #e9edf1;
+}

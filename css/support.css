@@ -1,0 +1,75 @@
+#support_css {
+  display: none;
+}
+
+.support_search_wrap {
+  background: #f7f7f7;
+  padding: 10px;
+  border-bottom: 1px solid #e7eaed;
+}
+.support_search_wrap #c_q {
+  background: #FFF url(/images/magglass.png) no-repeat 5px 6px;
+  padding: 5px 40px 5px 20px;
+  width: 209px;
+  outline: none;
+}
+
+#no_results {
+  padding: 100px 0px;
+  margin: 10px 0px;
+  font-size: 1.18em;
+  color: #777;
+  text-align: center;
+}
+
+.support_form_content {
+  margin: 0px auto;
+  padding-top: 10px;
+  width: 300px;
+}
+
+#support_error {
+  display: none;
+  margin-bottom: 8px;
+}
+#support_result {
+  display: none;
+  padding: 0px 0px 15px;
+}
+
+.support_form_param {
+  padding: 0px 0px 10px 0px;
+}
+.support_form_header {
+  color: #45668E;
+  font-weight: bold;
+  font-size: 1.18em;
+  padding: 0px 0px 8px;
+}
+.support_form_content .text {
+  width: 292px;
+}
+
+.support_warn {
+  display: none;
+  color: #666;
+  padding-top: 5px;
+}
+
+/* Rows */
+.support_message_row {
+  margin: 20px;
+  border-bottom: 1px solid #dae1e8;
+}
+.support_message_author {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.support_message_contact {
+  font-weight: normal;
+  color: #777;
+}
+.support_message_bottom {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

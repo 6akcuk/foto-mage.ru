@@ -1,0 +1,15 @@
+#console_css {
+  display: none;
+}
+
+.console_container {
+  padding: 10px;
+}
+
+/* Bot table */
+.console_bot_name {
+  width: 150px;
+}
+.console_bot_actions {
+  width: 120px;
+}

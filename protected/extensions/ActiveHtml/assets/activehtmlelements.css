@@ -1,0 +1,609 @@
+#activehtmlelements_css {
+    display: none;
+}
+
+input.error {
+    border-color: #fc575e !important;
+}
+
+/* Input Placeholder */
+span.input_placeholder {
+    position: relative;
+    display: inline-block;
+}
+
+span.input_placeholder label {
+    display: none;
+    position: absolute;
+    cursor: text;
+    overflow: hidden;
+}
+span.input_placeholder input {
+
+}
+
+/* Addon Calendar */
+a.input_calendar {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding: 4px 8px 8px 8px;
+    font-size: 12px;
+    width: 105px;
+    height: 13px;
+    color: #7b8084;
+    background: url('/images/textarea_login.jpg') #fefffa repeat-x top;
+    border: 1px solid #557132;
+}
+a.input_calendar span {
+    display: inline-block;
+}
+a.input_calendar em {
+    position: absolute;
+    display: none;
+    right: 0;
+    top: -5px;
+}
+
+/* Calendar */
+.calendar {
+    position: absolute;
+    background: #fff;
+    border: 3px solid #778899;
+    width: 210px;
+}
+.calendar .header a, .calendar .header span {
+    display: inline-block;
+}
+.calendar .header a {
+    width: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.calendar .header a:hover {
+    background: #74c7f7;
+    color: #fff;
+}
+.calendar .header span {
+    width: 110px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.calendar ul.list li {
+    float: left;
+    display: inline-block;
+}
+.calendar ul.list li a, .calendar ul.list li em {
+    display: inline-block;
+    padding: 5px;
+    width: 20px;
+    text-align: center;
+}
+.calendar ul.weekdays li {
+    width: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.calendar ul.list li a:hover {
+    background: #74c7f7;
+    color: #fff;
+}
+
+/* Tooltip */
+div.tooltip {
+    position: absolute;
+    z-index: 1200;
+}
+div.tooltip div.tt_bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #000;
+    filter:alpha(opacity=80);
+    opacity: .8;
+    border-radius: 4px
+}
+div.tooltip div.tt_text {
+    position: relative;
+    color: #fff;
+    padding: 4px 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Popup Helper */
+div.popup_helper {
+  max-width: 270px;
+}
+div.popup_helper div.tt_text {
+
+}
+
+/* Dropdown */
+div.dropdown {
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    float: left;
+    margin: 4px 0px;
+}
+div.dropdown span.text {
+    float: left;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 4px 5px 4px 10px;
+    background: #ededf0;
+    min-width: 120px;
+}
+div.dropdown span.arrow {
+    float: right;
+    display: inline-block;
+    cursor: pointer;
+    padding: 4px 4px 4px 5px;
+    background: #254a10;
+    text-align: center;
+    color: #fff;
+}
+div.dropdown:hover span.arrow {
+    background: #447229;
+}
+
+div.dropdown_down {
+    margin-bottom: 10px;
+}
+
+div.dropdown ul {
+    display: none;
+    position: absolute;
+    background: #ededf0;
+    z-index: 99;
+}
+div.dropdown ul li a {
+    display: block;
+    padding: 4px 5px 4px 10px;
+}
+div.dropdown ul li a:hover {
+    background: #508033;
+    color: #fff
+}
+
+/* Wide Dropdown */
+.wdd {
+    position: relative;
+    padding: 2px;
+    background: #fff;
+    border: 1px solid #70973f;
+    overflow: visible;
+}
+.wdd_lwrap {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    z-index: 1010;
+    display: none;
+    max-height: 210px;
+}
+.wdd_list {
+    border: 1px solid #70973f;
+    border-top: 0;
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: 230px;
+}
+.wddi_no {
+    background: #f1f1f1;
+    padding: 6px;
+}
+.wddi, .wddi_over {
+    cursor: pointer;
+    display: block;
+    padding: 0px 6px;
+    background: #fff;
+}
+.wddi_over {
+    background: #f1f5f9;
+    margin-top: -1px;
+    border: solid #e1e7ed;
+    border-width: 1px 0;
+}
+.wddi:first-child, .wddi_over:first-child {
+    border-top: 0;
+    margin-top: 0;
+}
+.wddi_data {
+    padding: 6px 0;
+    border-bottom: 1px solid #ededed;
+    min-height: 32px;
+    font-size: 12px;
+}
+.wddi:last-child .wddi_data, .wddi_over .wddi_data, .wddi:last-child, .wddi_over:last-child {
+    border-bottom: 0px;
+}
+.wddi_thumb {
+    width: 50px;
+    height: 42px;
+    overflow: hidden;
+}
+.wddi_img {
+    vertical-align: top;
+    width: 42px;
+    border-radius: 2px;
+}
+.wddi_text {
+    padding-top: 2px
+}
+.wddi_sub {
+    padding-top: 3px;
+    color: #777
+}
+.wddi_over .wddi_sub {
+    color: #738392;
+}
+.wdd_arrow {
+    margin-top: 2px;
+    width: 23px;
+    height: 27px;
+    overflow: hidden;
+    cursor: pointer;
+    background: url('/../../images/wide_dd.gif') no-repeat;
+}
+.wdd_bubbles .summary_tab_sel {
+    padding: 2px;
+    cursor: default;
+    font-weight: bold;
+}
+.summary_tab2 {
+    display: block;
+    padding: 3px 5px 4px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.summary_tab_sel .summary_tab2, .summary_tab_sel .summary_tab2:hover {
+    background: #447229;
+}
+.summary_tab3 {
+    max-width: 230px;
+    height: 17px;
+    overflow: hidden;
+    padding: 0 3px;
+    text-overflow: ellipsis;
+    font-weight: bold;
+}
+.summary_tab_sel .summary_tab3 {
+    color: #fff;
+}
+.summary_tab_x {
+    width: 11px;
+    height: 11px;
+    margin: 4px 1px 0;
+    background: url('/../../images/wdd_tabx.gif') no-repeat;
+    cursor: pointer;
+}
+.summary_tab_sel .summary_tab_x {
+    background-position: 0 -13px;
+    opacity: 0.2;
+}
+.wdd_add {
+    padding: 2px;
+    cursor: pointer;
+}
+.wdd_add2 {
+    background: #e5e8ed;
+    border-radius: 2px;
+    padding: 3px 5px 4px;
+    font-size: 12px;
+}
+.wdd_add3 {
+    height: 17px;
+    overflow: hidden;
+    padding: 0 3px;
+    font-weight: bold;
+}
+.wdd_add_plus {
+    width: 11px;
+    height: 11px;
+    margin: 4px 1px 0;
+    background: url('/../../images/wdd_plus.gif') no-repeat;
+}
+.wdd_text {
+    padding: 5px 6px 6px;
+    height: 14px;
+    margin: 0;
+    outline: 0;
+    border: 0 !important;
+    background: none !important;
+}
+
+/* Search Field */
+.search {
+    position: relative;
+    border: 3px solid #d3d3d3;
+    padding: 8px
+}
+.search .iconify {
+
+}
+.search input {
+    border: 0;
+    padding: 0
+}
+.search .progress {
+    position: absolute;
+    right: 8px;
+    top: 13px;
+    width: 32px;
+    height: 10px;
+    background: url('/../images/progress_small.gif') no-repeat;
+    display: none
+}
+
+
+/* Report Window */
+div.report_window {
+    position: absolute;
+    background: #f2f2f2;
+    padding: 25px;
+    width: 160px;
+    text-align: center;
+    line-height: 22px;
+    display: none;
+    z-index: 1199;
+}
+
+div.report_window .close {
+    float: right;
+    margin-right: -14px;
+    margin-top: -17px;
+    color: #3c6b82;
+    font-size: 18px
+}
+div.report_window .close:hover {
+    color: #89a;
+}
+
+.input_error {
+    display: block;
+    font-size: 12px;
+    color: #cd0a0a;
+    padding: 4px 0px;
+}
+
+/* AJAX Exception Window */
+div.ajex {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 7px 10px;
+  border-radius: 0 0 6px 0;
+  background: #FFB4A3;
+  z-index: 1310;
+}
+
+/* Mini Save Informer */
+div.msi {
+    position: fixed;
+    top: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+    background: #FFD324;
+}
+
+/* On Line Context Menu */
+div.olcm {
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    background: #F0F4FF;
+    border: 3px solid #8596a7;
+    z-index: 9;
+}
+div.olcm h4 {
+    margin: 0;
+    padding: 5px;
+    font-size: 14px;
+    background: #f0f4ff;
+}
+div.olcm li a {
+    display: block;
+    padding: 5px;
+    font-weight: normal;
+    background: #fff
+}
+div.olcm li a:hover {
+    background: #8596a7;
+    color: #fff
+}
+
+/* File Upload One Click */
+.fileupload {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.fileupload .fileprogress {
+    display: none;
+    text-align: center;
+    min-width: 200px
+}
+.fileupload .filedata {
+    display: none;
+    position: relative;
+}
+.fileupload .filedata img + a {
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    top: 0px;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    border-radius: 3px;
+}
+.fileupload .filedata img + a em {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 2px;
+    left: 3px;
+}
+.fileupload .filebutton {
+    position: relative;
+}
+.fileupload .filebutton input {
+    position: absolute;
+    right: 0;
+    opacity: 0.01;
+    filter: alpha(opacity=1);
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    font-size: 6.54em;
+    color: #444;
+}
+.fileupload .attach {
+    display: inline-block;
+    padding: 2px 8px 2px 8px;
+    cursor: pointer;
+    border: 0;
+    font-size: 12px;
+    background: url('/images/login_bttn.jpg');
+    color: #fff;
+
+}
+.fileupload .attach:hover {
+    background: #74c7f7
+}
+.filectrl {
+    position: absolute;
+}
+.filectrl iframe {
+    width: 1px;
+    height: 1px;
+    visibility: hidden;
+    position: absolute;
+}
+.filectrl input {
+    visibility: hidden;
+}
+
+/* Text Editor */
+.editor_simple {
+    padding: 10px 0;
+}
+.editor_buttons {
+    padding-top: 10px
+}
+.editor_buttons .btn {
+    margin-right: 10px
+}
+
+/* Autosize */
+.autosize {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    visibility: hidden;
+    line-height: 13px;
+    word-wrap: break-word;
+}
+
+.smarttext textarea {
+    overflow: hidden;
+}
+
+/* Up me */
+.stl {
+    cursor: pointer
+}
+#stl_left {
+    top: 0;
+    left: 0;
+    z-index: 3
+}
+#stl_bg {
+    width: 100px;
+    height: 100%;
+    padding: 13px 0px;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+#stl_bg.hover {
+    background: #00641c;
+}
+#stl_text {
+    display: block;
+    padding: 0px 20px;
+    margin-left: 15px;
+    margin-right: 31px;
+    font-weight: bold;
+}
+
+/* Addon as Multiple File Upload */
+.fileupload.multiple {
+  display: block;
+}
+.fileupload.multiple .attach {
+  display: block;
+  padding: 20px 0px;
+  text-align: center;
+  font-size: 18px;
+}
+
+#upload-preview {
+}
+#upload-preview .filepreview {
+  display: block;
+  padding: 10px;
+  background: #f2f2f2;
+  cursor: pointer;
+}
+.filepreview .filename {
+  overflow: hidden;
+  width: 200px;
+}
+.filepreview .filestate {
+  display: none;
+  color: #999;
+}
+.filepreview .fileprogress {
+  display: none;
+  position: relative;
+  min-width: 0px;
+  width: 100px;
+  height: 10px;
+  background: #e0e0e0;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.filepreview .fileprogress .fileprogressbg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 10px;
+  background: #404040;
+}
+.filepreview .filenumprogress {
+  display: none;
+  font-size: 11px;
+  padding-top: 3px;
+  margin-left: 10px;
+}
+#upload-preview .filepreview:hover {
+  background: #dae1e8;
+}
+.filepreview:hover .filestate {
+  display: block;
+}
+.filepreview .filesuccess {
+  color: #005b01;
+}
+.filepreview .fileerror {
+  color: #cc0000;
+}

@@ -1,0 +1,26 @@
+#register_css {
+  display: none;
+}
+
+#register_error {
+  display: none;
+  margin-bottom: 8px;
+}
+#register_result {
+  display: none;
+  padding: 0px 0px 15px;
+}
+
+.register_block {
+  margin: 0px auto;
+  width: 204px;
+  text-align: center;
+}
+.register_block div.clear_fix {
+  margin: 10px 0;
+  width: 154px;
+}
+.register_block input {
+  width: 142px;
+  padding: 5px !important;
+}

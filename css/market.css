@@ -1,0 +1,168 @@
+#market_css {
+  display: none;
+}
+
+.market_search_wrap {
+  background: #f7f7f7;
+  padding: 10px;
+  border-bottom: 1px solid #e7eaed;
+}
+.market_search_wrap #c_name, .market_search_wrap #c_title {
+  background: #FFF url(/images/magglass.png) no-repeat 5px 6px;
+  padding: 5px 40px 5px 20px;
+  width: 209px;
+  outline: none;
+}
+
+.results_wrap {
+  padding: 5px 15px;
+}
+
+.market_table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.market_table td {
+  padding: 5px 0px;
+}
+
+.market_table td.results {
+  padding: 5px 15px;
+  background: #fff;
+  border-right: 1px solid #DAE1E8;
+}
+.market_table td.filters {
+  background: #f7f7f7;
+  width: 170px;
+}
+
+#no_results {
+  padding: 100px 0px;
+  margin: 10px 0px;
+  font-size: 1.18em;
+  color: #777;
+  text-align: center;
+}
+
+/* Forms */
+.market_form_content {
+  padding: 3px 0px 1px;
+  width: 370px;
+}
+.market_form_header {
+  font-weight: bold;
+  font-size: 1.09em;
+  color: #36638E;
+  margin: 6px 0px 5px;
+}
+.market_form_content .text {
+  width: 360px;
+}
+
+/* Categories */
+.market_category_content, .market_param_content {
+  padding: 3px 0px 1px;
+  width: 370px;
+}
+.market_category_header {
+  font-weight: bold;
+  font-size: 1.09em;
+  color: #36638E;
+  margin: 11px 0px 5px;
+}
+#name, #title_form {
+  width: 360px;
+}
+#market_category_error, #market_param_error {
+  display: none;
+  margin-top: 8px;
+}
+#market_category_result {
+  display: none;
+  padding: 15px 0px 0px;
+}
+
+/* Params */
+.market_param_general_row {
+  padding-bottom: 4px;
+}
+.market_param_general_label {
+  color: #555;
+  width: 125px;
+  padding: 4px 10px 0px 0px;
+}
+.market_param_general_labeled #title, .market_param_general_labeled #suffix {
+  width: 197px;
+}
+#market_param_result {
+  display: none;
+  padding: 0px 15px 15px 15px;
+}
+
+/* Posts */
+#market_good_error {
+  display: none;
+  margin-bottom: 8px;
+}
+#market_good_result {
+  display: none;
+  padding: 0px 0px 15px;
+}
+.market_good_param {
+  padding: 0px 0px 10px 0px;
+}
+.market_good_header {
+  color: #45668E;
+  font-weight: bold;
+  font-size: 1.09em;
+  padding: 0px 0px 10px;
+}
+
+.market_good_param #title,
+.market_good_param #fullstory,
+.market_good_param #price,
+.market_param_input {
+  width: 370px;
+}
+
+#market_params .selector_container {
+  margin-bottom: 10px;
+}
+#market_params .selector_container:last-child {
+  margin-bottom: 0px;
+}
+
+/* Post */
+.market_good {
+  padding: 7px 0px 10px;
+  border-bottom: 1px solid #dae1e8;
+}
+.market_good_avatar {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  padding-right: 15px;
+}
+.market_good_avatar img {
+  width: 100px;
+}
+.market_good_title {
+  font-size: 1.09em;
+  padding-bottom: 8px;
+}
+.market_good_price {
+  padding-bottom: 8px;
+}
+.market_good_data {
+  color: #777;
+  padding-bottom: 4px;
+}
+.market_good_story {
+  padding: 4px 0px;
+}
+.market_good_bottom {
+  padding-top: 8px;
+}
+.market_good_date {
+  color: #666;
+}

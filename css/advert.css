@@ -1,0 +1,150 @@
+#advert_css {
+  display: none;
+}
+
+.advert_search_wrap {
+  background: #f7f7f7;
+  padding: 10px;
+  border-bottom: 1px solid #e7eaed;
+}
+.advert_search_wrap #c_name, .advert_search_wrap #c_title {
+  background: #FFF url(/images/magglass.png) no-repeat 5px 6px;
+  padding: 5px 40px 5px 20px;
+  width: 209px;
+  outline: none;
+}
+
+.results_wrap {
+  padding: 5px 15px;
+}
+
+.advert_table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.advert_table td {
+  padding: 5px 0px;
+}
+
+.advert_table td.results {
+  padding: 5px 15px;
+  background: #fff;
+  border-right: 1px solid #DAE1E8;
+}
+.advert_table td.filters {
+  background: #f7f7f7;
+  width: 170px;
+}
+
+#no_results {
+  padding: 100px 0px;
+  margin: 10px 0px;
+  font-size: 1.18em;
+  color: #777;
+  text-align: center;
+}
+
+/* Categories */
+.advert_category_content, .advert_param_content {
+  padding: 3px 0px 1px;
+  width: 370px;
+}
+.advert_category_header {
+  font-weight: bold;
+  font-size: 1.09em;
+  color: #36638E;
+  margin: 11px 0px 5px;
+}
+#name, #title_form {
+  width: 360px;
+}
+#advert_category_error, #advert_param_error {
+  display: none;
+  margin-top: 8px;
+}
+#advert_category_result {
+  display: none;
+  padding: 15px 0px 0px;
+}
+
+/* Params */
+.advert_param_general_row {
+  padding-bottom: 4px;
+}
+.advert_param_general_label {
+  color: #555;
+  width: 125px;
+  padding: 4px 10px 0px 0px;
+}
+.advert_param_general_labeled #title, .advert_param_general_labeled #suffix {
+  width: 197px;
+}
+#advert_param_result {
+  display: none;
+  padding: 0px 15px 15px 15px;
+}
+
+/* Posts */
+#advert_post_error {
+  display: none;
+  margin-bottom: 8px;
+}
+#advert_post_result {
+  display: none;
+  padding: 0px 0px 15px;
+}
+.advert_post_param {
+  padding: 0px 0px 10px 0px;
+}
+.advert_post_header {
+  color: #45668E;
+  font-weight: bold;
+  font-size: 1.09em;
+  padding: 0px 0px 10px;
+}
+
+.advert_post_param #title,
+.advert_post_param #fullstory,
+.advert_post_param #price,
+.advert_param_input {
+  width: 370px;
+}
+
+#advert_params .selector_container {
+  margin-bottom: 10px;
+}
+#advert_params .selector_container:last-child {
+  margin-bottom: 0px;
+}
+
+/* Post */
+.advert_post {
+  padding: 7px 0px 10px;
+  border-bottom: 1px solid #dae1e8;
+}
+.advert_post_avatar {
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  padding-right: 15px;
+}
+.advert_post_avatar img {
+  width: 100px;
+}
+.advert_post_title {
+  font-size: 1.09em;
+  padding-bottom: 8px;
+}
+.advert_post_price {
+  padding-bottom: 8px;
+}
+.advert_post_data {
+  color: #777;
+  padding-bottom: 4px;
+}
+.advert_post_bottom {
+  padding-top: 8px;
+}
+.advert_post_date {
+  color: #666;
+}

@@ -1,0 +1,36 @@
+#forgot_css {
+
+}
+
+#forgot_error {
+  display: none;
+  margin-bottom: 8px;
+}
+#forgot_result {
+  display: none;
+  padding: 0px 0px 15px;
+}
+
+.forgot_block {
+  margin: 0px auto;
+  padding: 10px 0;
+  width: 350px;
+  text-align: center;
+}
+.forgot_header {
+  color: #5c7b9b;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.forgot_description {
+  padding-top: 10px;
+}
+.forgot_form_wrap {
+  margin: 20px auto 0;
+  width: 205px;
+}
+.forgot_form_wrap #email, .forgot_form_wrap #code,
+.forgot_form_wrap #new_password, .forgot_form_wrap #new_password_rpt {
+  width: 193px;
+  padding: 5px;
+}

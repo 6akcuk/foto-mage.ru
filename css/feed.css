@@ -1,0 +1,88 @@
+#feed_empty {
+  color: #777;
+  line-height: 170%;
+  padding: 100px 30px;
+  text-align: center;
+  font-size: 1.09em;
+}
+
+.feed_good {
+  width: 70px;
+  padding: 10px;
+  margin-left: -10px;
+  overflow: hidden;
+  text-align: center;
+}
+.feed_good_photo {
+  display: block;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+}
+.feed_good_name {
+  display: block;
+  padding-top: 5px;
+  max-width: 70px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.feed_row_new {
+  background: #f5f7f6;
+}
+
+.feedback_answered_row_wrap {
+  border-bottom: 1px solid #dae1e8;
+  padding: 0px;
+}
+.feedback_row_wrap {
+  padding: 0px 0px 10px;
+  cursor: pointer;
+}
+.feedback_row {
+  padding: 10px 30px 0px 0px;
+}
+
+td.feedback_row_photo {
+  padding-top: 0px;
+  width: 60px;
+}
+
+div.feedback_row_photo {
+  width: 60px;
+  height: 50px;
+  overflow: hidden;
+}
+div.feedback_row_photo img {
+  max-width: 50px;
+}
+
+td.feedback_row_content {
+  line-height: 150%;
+}
+div.feedback_row_content {
+  padding-left: 4px;
+  margin-left: -4px;
+}
+
+.feedback_row_text {
+  line-height: 160%;
+  padding: 2px 0px 4px;
+  max-width: 580px;
+  overflow: hidden;
+  word-wrap: break-word;
+  padding-left: 4px;
+  margin-left: -4px;
+}
+.feedback_row_date {
+  color: #999;
+  max-width: 580px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* Static Manager */
+#feed_css {
+  display: none;
+}
